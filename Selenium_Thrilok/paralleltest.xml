@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="ParallelSuite">
-  <test thread-count="4" name="ParallelTest">
+  <test thread-count="5" name="ParallelTest">
   <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="TestNG.TC_ParallelTest"/>
     </classes>
   </test> <!-- ParallelTest -->
-  <test thread-count="2" name="ParallelTest1">
+  <test thread-count="5" name="ParallelTest1">
   <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="TestNG.TC_ParallelTest"/>
